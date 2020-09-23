@@ -1,14 +1,17 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-	char text1[] = "hellow";
-	int length = 0;
-	for (char *let = text1; *let != '\0'; let++)
-		length++;
-	cout << text1 << '\n';
-	cout << length << '\n';
+	setlocale(LC_ALL, "rus");
+	string alphabet = "àáâãäå¸æçèéêëìíîïðñòóôõö÷øùúûüýþÿ";
+	string str;
+	cin >> str;
+	int step;
+	cin >> step;
+	char *encrypted = new char[str.length()];
+	
 	return 0;
 }
 
