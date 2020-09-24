@@ -19,7 +19,7 @@ int main() {
 			if (alphabet[j] == text[i]) {
 				ciph_index = j + step;
 				if (ciph_index > 25)
-					ciph_index -= 26;
+					ciph_index -= 26*(ciph_index / 26);
 				encrypted[i] = alphabet[ciph_index];
 			}
 		}
