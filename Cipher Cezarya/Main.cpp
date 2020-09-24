@@ -1,17 +1,31 @@
 #include <iostream>
 #include <string>
+#include <thread>
+#include <chrono>
 
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "rus");
-	string alphabet = "àáâãäå¸æçèéêëìíîïðñòóôõö÷øùúûüýþÿ";
+	char alphabet[] = " abcdefghijklmnopqrstuvwxyz";
 	string str;
-	cin >> str;
-	int step;
-	cin >> step;
+	getline(cin, str);
+	cout << str.length();
+	char *text = new char[str.length()];
 	char *encrypted = new char[str.length()];
-	
+	for (int i = 0; i < str.length(); i++)
+		text[i] = str[i];
+	for (int i = 0; i < str.length(); i++) {
+		for (int j = 0; j < 34; j++) {
+			if (alphabet[j] == text[i]) {
+				encrypted[i] = alphabet[j];
+			}
+		}
+	}
+	for (int i = 0; i < str.length(); i++) {
+		cout << encrypted[i];
+	}
+	delete[] text;
+	delete[] encrypted;
 	return 0;
 }
 
