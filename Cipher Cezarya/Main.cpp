@@ -22,6 +22,7 @@ int main() {
 	for (int i = 0; i < str.length(); i++)
     	text[i] = str[i];
 
+	//Проверяющий цикл
 	while (!check(text, str.length(), alphabet, 26)) {
 		cout << "Неверный формат, введите текст заново\n";
 		getline(cin, str);
@@ -100,7 +101,13 @@ int main() {
 	return 0;
 }
 
-
+/*Функция обработки ошибок ввода
+-----------------------------------------
+Принимает на вход указатель на первый
+элемент массива символов текста, который
+необходимо проверить, длину этого массива 
+и указатель на массив допустимых символов,
+его длину*/
 bool check(char* text, const int& t, char* alph, const int& a) {
 	bool ch = false;
 	for (int i = 0; i < t; i++) {
@@ -113,7 +120,10 @@ bool check(char* text, const int& t, char* alph, const int& a) {
 				ch = true;
 			}
 		}
+		/*Если текст содержит недопустимый символ,
+		вернёт false*/
 		if (!ch) { return  false;  break; }
 	}
+	//Если все символы корректны,вернёт true*
 	return true;
 }
