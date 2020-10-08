@@ -1,8 +1,9 @@
 ﻿  Main.cpp
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(20): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(32): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(51): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(64): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(82): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(22): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(28): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(41): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(60): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(73): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(91): warning C4018: '<': signed/unsigned mismatch
   Cipher Cezarya.vcxproj -> F:\1\для института\документы для курсовых и лаб\3-й семестр\Алг и струк данных\репоз\firstRepos\Cipher Cezarya\Debug\Cipher Cezarya.exe
   Cipher Cezarya.vcxproj -> F:\1\для института\документы для курсовых и лаб\3-й семестр\Алг и струк данных\репоз\firstRepos\Cipher Cezarya\Debug\Cipher Cezarya.pdb (Full PDB)

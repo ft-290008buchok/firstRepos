@@ -3,6 +3,8 @@
 
 using namespace std;
 
+bool check(char*, const int&, char*, const int&);
+
 int main() {
 	setlocale(LC_ALL, "rus");
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
@@ -14,11 +16,18 @@ int main() {
 	getline(cin, str);
 
 	/*Перевод строки в массив char[],
-	чтобы не возникало проблем 
+	чтобы не возникало проблем
 	при работе с индексами строк*/
 	char *text = new char[str.length()];
 	for (int i = 0; i < str.length(); i++)
-		text[i] = str[i];
+    	text[i] = str[i];
+
+	while (!check(text, str.length(), alphabet, 26)) {
+		cout << "Неверный формат, введите текст заново\n";
+		getline(cin, str);
+		for (int i = 0; i < str.length(); i++)
+			text[i] = str[i];
+	}
 
 	cout << "Зашифровать -- введите 1. Расшифровать -- введите 0" << '\n';
 	cin >> selector;
@@ -37,7 +46,7 @@ int main() {
 					/*Обеспечение циклического сдвига
 					по массиву alphabet[] в случае, если
 					индекс зашифрованного символа превосходит
-					размер массива alphabet[]*/
+					длину массива alphabet[]*/
 					if (ciph_index > 25)
 						ciph_index -= 26 * (ciph_index / 26);
 					encrypted[i] = alphabet[ciph_index];
@@ -91,3 +100,20 @@ int main() {
 	return 0;
 }
 
+
+bool check(char* text, const int& t, char* alph, const int& a) {
+	bool ch = false;
+	for (int i = 0; i < t; i++) {
+		ch = false;
+		for (int j = 0; j < a; j++) {
+			if (text[i] == alph[j]) {
+				ch = true;
+			}
+			if (text[i] ==' ') {
+				ch = true;
+			}
+		}
+		if (!ch) { return  false;  break; }
+	}
+	return true;
+}
