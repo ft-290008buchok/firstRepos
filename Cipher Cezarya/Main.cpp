@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 #include <string>
 
 using namespace std;
@@ -9,7 +10,8 @@ int main() {
 	setlocale(LC_ALL, "rus");
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	string str;
-	int step, ciph_index, selector;
+	int step, ciph_index, selector, cont;
+	char finish;
 
 	//—читывание строки с пробелами в переменную str
 	cout << "¬ведите текст\n";
@@ -20,7 +22,7 @@ int main() {
 	при работе с индексами строк*/
 	char *text = new char[str.length()];
 	for (int i = 0; i < str.length(); i++)
-    	text[i] = str[i];
+		text[i] = str[i];
 
 	//ѕровер€ющий цикл
 	while (!check(text, str.length(), alphabet, 26)) {
@@ -96,8 +98,12 @@ int main() {
 		delete[] decrypted;
 	}
 
-	
+
 	delete[] text;
+	
+	cout << "ƒл€ завершени€ работы нажмите любую клавишу";
+	cin >> finish;
+
 	return 0;
 }
 
