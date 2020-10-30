@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include<fstream>
 #include <string>
 
 using namespace std;
@@ -8,6 +9,12 @@ bool check(char*, const int&, char*, const int&);
 
 int main() {
 	setlocale(LC_ALL, "rus");
+
+	ofstream log("log.txt", ios_base::app);
+	string mem = "Memory";
+	log << mem;
+	log.close();
+	
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	string str;
 	int step, ciph_index, selector, cont;
