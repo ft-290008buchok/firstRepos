@@ -1,10 +1,11 @@
 ﻿  Main.cpp
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(31): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(38): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(51): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(70): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(83): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(101): warning C4018: '<': signed/unsigned mismatch
-f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(20): warning C4101: 'cont': unreferenced local variable
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(52): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(61): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(76): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(96): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(113): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(132): warning C4018: '<': signed/unsigned mismatch
+f:\1\для института\документы для курсовых и лаб\3-й семестр\алг и струк данных\репоз\firstrepos\cipher cezarya\main.cpp(33): warning C4101: 'cont': unreferenced local variable
   Cipher Cezarya.vcxproj -> F:\1\для института\документы для курсовых и лаб\3-й семестр\Алг и струк данных\репоз\firstRepos\Cipher Cezarya\Debug\Cipher Cezarya.exe
   Cipher Cezarya.vcxproj -> F:\1\для института\документы для курсовых и лаб\3-й семестр\Алг и струк данных\репоз\firstRepos\Cipher Cezarya\Debug\Cipher Cezarya.pdb (Full PDB)
